@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bundle:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bundle_jar</output-path>
+    <root id="archive" name="Bundle.jar">
+      <element id="module-output" name="Bundle" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JFrame/mainProject/mysql-connector-j-8.0.32.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
