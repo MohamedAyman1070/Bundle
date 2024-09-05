@@ -16,7 +16,7 @@ public class databaseHandler {
     public databaseHandler(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/creditsDatabase","root","01006059030app");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/creditsDatabase","root","password");
             statement = con.createStatement();
             System.out.println("it works");
         }catch(Exception e){
